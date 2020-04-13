@@ -12,7 +12,10 @@ Eventual Consistency
 2PC is an anti-pattern
 High(and automated) observability
 Autonomy (Team Cohesiveness)
-	
+
+Smart end points and dump pipes
+https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f
+
 https://martinfowler.com/articles/microservices.html
 https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 https://dzone.com/articles/challenges-in-implementing-microservices

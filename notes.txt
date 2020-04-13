@@ -23,3 +23,16 @@ https://dzone.com/articles/challenges-in-implementing-microservices
 GIT URL
 
 https://github.com/prabhakarmishra/MSVirtualSession.git
+
+Agile 
+- Go to market is faster
+- feedback 
+- improve the quality of product/work
+- 
+ 
+
+Spring boot
+https://spring.io/
+https://start.spring.io/
+For tool 
+https://spring.io/tools

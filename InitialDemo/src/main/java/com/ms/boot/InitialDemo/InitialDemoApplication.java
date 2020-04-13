@@ -38,6 +38,7 @@ public class InitialDemoApplication {
 			repo.save(new Product(101, "Bass Guitar", "6 Strings", 800.00));
 			repo.save(new Product(102, "Electric Kettle", "5 ltrs", 200.78));
 			repo.save(new Product(103, "Solar Powered Robo", "8 hours battery life", 10000.00));
+			repo.save(new Product(104, "MS Bootcamp", "MS bootcamp for all learning team", 21.00));
 			/*
 			 * products.stream().map((p) -> (repo.save(p))
 			 * 

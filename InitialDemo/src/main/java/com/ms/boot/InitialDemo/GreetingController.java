@@ -17,7 +17,7 @@ public class GreetingController {
 
 	@RequestMapping(path = "/default", method = RequestMethod.GET)
 	public String getDefaultMessage() {
-		return "Hello Delta!";
+		return "Hello World!";
 	}
 
 	@RequestMapping(path = "/config/{name}", method = RequestMethod.GET)

@@ -15,10 +15,21 @@ Autonomy (Team Cohesiveness)
 
 Smart end points and dump pipes
 https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f
-
 https://martinfowler.com/articles/microservices.html
 https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 https://dzone.com/articles/challenges-in-implementing-microservices
+
+observability
+https://medium.com/observability/microservices-observability-26a8b7056bb4
+
+Spring boot/cloud
+Spring boot
+https://spring.io/
+https://start.spring.io/
+For tool 
+https://spring.io/tools
+https://spring.io/cloud
+https://12factor.net/
 
 GIT URL
 
@@ -31,8 +42,3 @@ Agile
 - 
  
 
-Spring boot
-https://spring.io/
-https://start.spring.io/
-For tool 
-https://spring.io/tools

@@ -1,0 +1,22 @@
+==== MS Key Concepts ====================
+Isolation ( Isolate Everything !) - Code Simplicity- Services, Teams, Scalability
+Distributed System 
+Single Responsibility (Single-responsiblity principle)
+Always oriented around business or domain capabilities or facts.
+It is a journey (constant evolution) -> Evolutionary Architectures.
+Loose-Coupling and high cohesion
+Automate Everything
+	Infrstructure as Code
+Design and Expect failure
+Eventual Consistency
+2PC is an anti-pattern
+High(and automated) observability
+Autonomy (Team Cohesiveness)
+	
+https://martinfowler.com/articles/microservices.html
+https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
+https://dzone.com/articles/challenges-in-implementing-microservices
+
+GIT URL
+
+https://github.com/prabhakarmishra/MSVirtualSession.git

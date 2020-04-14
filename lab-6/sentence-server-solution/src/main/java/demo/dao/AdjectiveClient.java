@@ -12,14 +12,4 @@ public interface AdjectiveClient {
 	public Word getWord();
 
 	
-	static class HystrixClientFallback implements AdjectiveClient {
-
-		@Override
-
-		public Word getWord() {
-
-		return new Word();
-
-		}	
-	}	
 }

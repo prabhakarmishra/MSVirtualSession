@@ -39,7 +39,13 @@ Agile
 - Go to market is faster
 - feedback 
 - improve the quality of product/work
-- 
+Spring cloud config server
+
+service discovery
+https://microservices.io/patterns/service-registry.html
+
+https://spring.io/reactive
+
  
 Webex Recoding 
 Monday, April 13, 2020  |  12:02 am  |  Eastern Daylight Time (New York, GMT-04:00)  

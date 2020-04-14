@@ -1,5 +1,13 @@
----
-# For simplicity, disable security when posting to bus/refresh:  
+spring:
+  cloud:
+    bus:
+      enabled: true
+      destination: configXchangebus
+  rabbitmq:
+    host: rabbitmq-master
+    port: 5672
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'

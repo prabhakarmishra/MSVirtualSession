@@ -42,6 +42,9 @@ Agile
 - improve the quality of product/work
 Spring cloud config server
 
+Spring Cloud bus refresh end points via postman
+http://localhost:8001/actuator/bus-refresh
+
 service discovery
 https://microservices.io/patterns/service-registry.html
 
@@ -53,3 +56,8 @@ Monday, April 13, 2020  |  12:02 am  |  Eastern Daylight Time (New York, GMT-04:
 Duration: 7 hr 7 min 44 sec  
 Recording password: 2wGJ5UWu  
 https://ibm.webex.com/ibm/ldr.php?RCID=2e7b9b9cee2a4676a900b8c226c4a24d
+
+Tuesday, April 14, 2020  |  12:01 am  |  Eastern Daylight Time (New York, GMT-04:00) 
+Duration: 7 hr 18 min 51 sec 
+Recording password: xUzhkDW8 
+https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/d4f78d452b9f4230ba8b4d7157855137

@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-spring.boot.launch.profile.history=verb;subject;default;tertiary;secondary;primary;
+spring.boot.launch.profile.history=default;verb;subject;tertiary;secondary;primary;

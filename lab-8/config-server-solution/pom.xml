@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ms.boot</groupId>
-	<artifactId>ConfigServer</artifactId>
+	<artifactId>lab-8-config-server-solution</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ConfigServer</name>
 	<description>Demo project for Spring Boot</description>

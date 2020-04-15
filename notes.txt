@@ -49,7 +49,17 @@ service discovery
 https://microservices.io/patterns/service-registry.html
 
 https://spring.io/reactive
+https://spring.io/projects/spring-cloud-circuitbreaker#samples
 
+------------------------------------
+-  Agility
+-  Availability
+-  Resilency 
+-  Scalability
+
+MS 2 important part
+- Automation
+- DevOps 
  
 Webex Recoding 
 Monday, April 13, 2020  |  12:02 am  |  Eastern Daylight Time (New York, GMT-04:00)  
@@ -62,6 +72,9 @@ Duration: 7 hr 18 min 51 sec
 Recording password: xUzhkDW8 
 https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/d4f78d452b9f4230ba8b4d7157855137
 
+
+
+
 ==========================================================================
 Installed software
 - STS (editor)
@@ -73,14 +86,7 @@ Environment variable
 - MAVEN_HOME
 
 All coding practice - 3 days MS in Spring boot
-
-
-
-
-
-
-
-stop        Stop one or more running containers
+  stop        Stop one or more running containers
   tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
   top         Display the running processes of a container
   unpause     Unpause all processes within one or more containers

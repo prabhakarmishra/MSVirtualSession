@@ -62,7 +62,18 @@ https://spring.io/projects/spring-cloud-circuitbreaker#samples
 
 MS 2 important part
 - Automation
-- DevOps 
+- DevOps
+
+
+API Gateway
+IBM api connect
+Google - apigee
+-------------
+Service mess
+ISTIO - opensource
+Antos - google 
+
+
  
  
 Webex Recoding 

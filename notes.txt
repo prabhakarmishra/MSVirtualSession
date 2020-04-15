@@ -61,3 +61,120 @@ Tuesday, April 14, 2020  |  12:01 am  |  Eastern Daylight Time (New York, GMT-04
 Duration: 7 hr 18 min 51 sec 
 Recording password: xUzhkDW8 
 https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/d4f78d452b9f4230ba8b4d7157855137
+
+==========================================================================
+Installed software
+- STS (editor)
+- JAVA
+- MAVEN
+
+Environment variable
+- JAVA_HOME
+- MAVEN_HOME
+
+All coding practice - 3 days MS in Spring boot
+
+
+
+
+
+
+
+stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+
+docker-machine ls
+docker ps
+docker start docker-vm1
+docker-machine start docker-vm1
+docker-machine env docker-vm1
+@FOR /f "tokens=*" %i IN ('docker-machine env docker-vm1') DO @%i
+docker-machine ls
+cd docker
+C:\Users\w2cluster99\ksr\mschassis-master\docker>startchassis.bat
+and select Y for zipkin and rabbitMQ
+
+(if required to create the vm)
+docker-machine create -d "virtualbox" --virtualbox-memory "1024" docker-vm3
+
+https://hub.docker.com/?ref=login
+docker ps
+docker images
+docker pull nginx:latest
+docker run -d nginx
+docker run -d -p 80:80 --name mynginx nginx
+echo %docker_host%
+docker images ls
+
+docker container kill 5c13c97e9e23
+docker container stop 1696a8e642f8 91ab8776b340
+docker ps -a
+docker exe -it mynginx /etc/bin // run a command in container, in this case would present a shell.
+docker container rm e7e09d318ed9
+docker container kill e7e09d318ed9
+docker-machine create -d "virtualbox" docker-vm3
+
+
+build the application using maven - go to path of package and then run the below command
+mvn clean package -DskipTests
+
+
+https://hub.docker.com/?ref=login
+docker ps
+docker images
+docker pull nginx:latest
+docker run -d nginx
+docker run -d -p 80:80 --name mynginx nginx
+echo %docker_host%
+docker run --name tt -p 8080:80 tutum/hello-world
+docker ps
+
+docker container kill 5c13c97e9e23
+docker container stop 1696a8e642f8 91ab8776b340
+docker ps -a
+docker exe -it mynginx /etc/bin // run a command in container, in this case would present a shell.
+docker container rm e7e09d318ed9
+docker container kill e7e09d318ed9
+docker-machine create -d "virtualbox" docker-vm3
+
+docker build -t prabhakarm/configserverkol:1 .
+docker image | grep kol
+docker run -p 8888:8888 -d --name config --network ms-chassis-nw prabhakarm/configserverkol:1
+docker build -t prabhakarm/eurekakol:1 .
+docker run -p 8761:8761 -d --name eureka --network ms-chassis-nw prabhakarm/eurekakol:1
+docker build -t prabhakarm/cloudapigatewaykol:1 .
+docker run -p 80:9092 -d --name cloudapigateway --network ms-chassis-nw prabhakarm/cloudapigatewaykol:1
+docker build -t prabhakarm/discountmskol:1 .
+docker run -d --name discoutmskol --network ms-chassis-nw prabhakarm/discountmskol:1
+docker build -t prabhakarm/productmskol:1 .
+docker run -d --name productmskol --network ms-chassis-nw prabhakarm/productmskol:1 .
+
+Command Push the images in docker hub
+docker push prabhakarm/configserverkol:1
+
+
+zipkin url
+http://192.168.99.100:9411/zipkin/
+change the url in code of zipkin url
+http://192.168.99.100:15672/
+guest/guest
+
+- git part needs to check
+- all code needs to checkin
+
+Entry in Host file
+C:\Windows\System32\drivers\etc  - host file
+192.168.99.100 rabbitmq-master
+192.168.99.100 zipkin
+192.168.99.100 mysql
+192.168.99.100 eureka-1
+192.168.99.100 configserver
+

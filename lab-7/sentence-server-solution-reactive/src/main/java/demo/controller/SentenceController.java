@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 
 import demo.service.SentenceService;
 
@@ -42,14 +43,24 @@ public class SentenceController {
 	@HystrixCommand(fallbackMethod = "myFallbackMethod")
 	public @ResponseBody String test() {
 		if (new Random().nextBoolean()) {
+			// calling a SBI API or any service 
 			return "Everything Working Fine";
 		} else {
 			throw new RuntimeException();
 		}
 	}
 	
+	@HystrixCommand(fallbackMethod = "myFallbackMethod2")
 	public String myFallbackMethod() {
+		//@HystrixProperty(name="" value ="")  // default 20 request and 5 second 
+		// calling a ICICI API or any service 
 		return "Fallback Enabled";
+	}
+	
+	public String myFallbackMethod2()
+	{
+		// calling a Citibank API or any service 
+		return "Fallbank enable for method 2";
 	}
 	
 

@@ -45,6 +45,9 @@ Spring cloud config server
 Spring Cloud bus refresh end points via postman
 http://localhost:8001/actuator/bus-refresh
 
+http://localhost:8021/hystrix/
+http://localhost:8021/actuator/hystrix.stream
+
 service discovery
 https://microservices.io/patterns/service-registry.html
 
@@ -60,6 +63,7 @@ https://spring.io/projects/spring-cloud-circuitbreaker#samples
 MS 2 important part
 - Automation
 - DevOps 
+ 
  
 Webex Recoding 
 Monday, April 13, 2020  |  12:02 am  |  Eastern Daylight Time (New York, GMT-04:00)  

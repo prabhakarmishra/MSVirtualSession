@@ -18,6 +18,7 @@ https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb
 https://martinfowler.com/articles/microservices.html
 https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 https://dzone.com/articles/challenges-in-implementing-microservices
+https://microservices.io/patterns/data/database-per-service.html
 
 observability
 https://medium.com/observability/microservices-observability-26a8b7056bb4
@@ -54,6 +55,7 @@ https://microservices.io/patterns/service-registry.html
 https://spring.io/reactive
 https://spring.io/projects/spring-cloud-circuitbreaker#samples
 
+https://zipkin.io/
 ------------------------------------
 -  Agility
 -  Availability
@@ -87,7 +89,10 @@ Duration: 7 hr 18 min 51 sec
 Recording password: xUzhkDW8 
 https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/d4f78d452b9f4230ba8b4d7157855137
 
-
+Wednesday, April 15, 2020  |  12:01 am  |  Eastern Daylight Time (New York, GMT-04:00)  
+Duration: 7 hr 57 min 6 sec  
+Recording password: Jxwi8bwy
+https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/dd9a3f931af44dcf906e78bf9623a06e
 
 
 ==========================================================================

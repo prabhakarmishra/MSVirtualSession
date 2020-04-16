@@ -56,6 +56,14 @@ https://spring.io/reactive
 https://spring.io/projects/spring-cloud-circuitbreaker#samples
 
 https://zipkin.io/
+
+https://www.ibm.com/cloud/learn/virtualization-a-complete-guide
+
+https://www.ibm.com/cloud/learn/containerization
+
+https://www.redhat.com/en/topics/cloud-computing/cloud-vs-virtualization
+
+https://cognitiveclass.ai/courses/docker-essentials
 ------------------------------------
 -  Agility
 -  Availability
@@ -74,6 +82,47 @@ Google - apigee
 Service mess
 ISTIO - opensource
 Antos - google 
+
+=========================================================
+
+Q: What is cloud ?
+----------------------------------------------------------------------------------------------------
+compute - processor
+memory - RAM
+storage - disk/ssd
+operating system 
+network
+ == server
+ + server
+ + server
+ + server 
+ 
+  == Data Center
+	Costs
+		- Facility Costs
+		- Infrastructure Costs
+		- Maintenance costs
+		- Power costs
+		- Cooling Fans
+		- Personel
+		- Patching
+
+Cloud 
+- 8 AM - 11 AM - 10000000 hit  - 80% 
+- 11 AM - 1 PM - 1000000 hit  - 30-40%
+- 1 PM - 3 PM - 500000 hit  - 25- 30%
+- 3 PM - 6 PM - 400000 hit - 20%
+- 6 PM - 9 PM - 5000000 hit - 30-40 %
+- 9 PM - 7:30 AM - 100000 hit - 10%
+		
+Amazon Web Services 
+	- hypervisor - Software Defined Hosts.
+	- Virtal hosts - VMs (Virtal Machines) - Usage can be monitored 
+	- IaaS , SaaS, PaaS , *aaS
+	- Cloud Providers 
+		Infinite access to servies , over internet , using a controlled usage based cost model.
+		everything is code (like infrastructure)
+	- Pay as use
 
 
  
@@ -95,6 +144,7 @@ Recording password: Jxwi8bwy
 https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/dd9a3f931af44dcf906e78bf9623a06e
 
 
+
 ==========================================================================
 Installed software
 - STS (editor)
@@ -104,6 +154,18 @@ Installed software
 Environment variable
 - JAVA_HOME
 - MAVEN_HOME
+
+
+Service registry Microservices - A - What is required to run this MS
+- Maven
+- JDK
+- LIB 
+- APP - (code, property file, dependent file)
+
+- Image
+
+dockerfile - which give instruction 
+
 
 All coding practice - 3 days MS in Spring boot
   stop        Stop one or more running containers

@@ -275,18 +275,19 @@ C:\Windows\System32\drivers\etc  - host file
 
 
 =======================================================
+1. One spring boot application 
+
 
 1. Create the kubernates cluster with 3 nodes
 2. spring boot application
 https://github.com/prabhakarmishra/spring-boot-lazy-init-example
 
 endpoing would be : http://localhost:8080/lazy
-https://www.youtube.com/watch?v=jSYxW_c3M_E
 
 3. git clone https://github.com/prabhakarmishra/spring-boot-lazy-init-example
 cd spring-boot-lazy-init-example
 ls -ltr
-4. ./mvnw clen install
+4. ./mvnw clean install
  cd target
 java -jar spring-boot-lazy -- snapshot.jar
 (snapshot was created after build and install)
@@ -302,16 +303,15 @@ once image created it will story in google registry with version
 
 8. lets login in google cluster with giving the credentials with zone details
 
-gcloud config set project projectid- [dark-sensor-273013-projectid]
-gcloud container clusters get-credentials techprimers-clousetr-1 -- zone us-central1-a
-
+gcloud config set project dark-sensor-273013
+gcloud container clusters get-credentials mycluster --zone us-central1-c 	 	
 9. kubectl get pods
  kubectl get services
  kubectl get deployment 
 10. check the docker
 Copy the imagename from container registry
-11. docker run -ti --rm -p 8080:8080 gcr.io/$GOOGLE_CLOUD_PROJECT/spring-boot-example:v1
-12. kubectl run spring-boot-exmaple --image=gcr.io/$GOOGLE_CLOUD_PROJECT/spring-boot-example:v1 --port 8080
+11. docker run -ti --rm -p 8080:8080 gcr.io/dark-sensor-273013/spring-boot-exmaple:v1
+12. kubectl run spring-boot-exmaple --image=gcr.io/dark-sensor-273013/spring-boot-example:v1 --port 8080
 13. check the deployment
 kubectl get deployment
 kubectl get pods

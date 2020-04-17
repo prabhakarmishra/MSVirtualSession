@@ -64,6 +64,9 @@ https://www.ibm.com/cloud/learn/containerization
 https://www.redhat.com/en/topics/cloud-computing/cloud-vs-virtualization
 
 https://cognitiveclass.ai/courses/docker-essentials
+
+https://medium.com/@shiranm/json-web-token-with-symmetric-and-asymmetric-encryption-b43f97a48b32
+
 ------------------------------------
 -  Agility
 -  Availability
@@ -143,6 +146,9 @@ Duration: 7 hr 57 min 6 sec
 Recording password: Jxwi8bwy
 https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/dd9a3f931af44dcf906e78bf9623a06e
 
+Thursday, April 16, 2020  |  12:01 am  |  Eastern Daylight Time (New York, GMT-04:00)  
+Duration: 5 hr 7 min 29 sec  
+Recording password: 5jHcrmF6  
 
 
 ==========================================================================

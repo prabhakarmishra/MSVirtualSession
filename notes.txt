@@ -148,8 +148,8 @@ https://ibm.webex.com/recordingservice/sites/ibm/recording/playback/dd9a3f931af4
 
 Thursday, April 16, 2020  |  12:01 am  |  Eastern Daylight Time (New York, GMT-04:00)  
 Duration: 5 hr 7 min 29 sec  
-Recording password: 5jHcrmF6  
-
+Recording password: 5jHcrmF6 
+https://ibm.webex.com/ibm/ldr.php?RCID=f131e2acb9c944bfaf50fd2eff2412de
 
 ==========================================================================
 Installed software
@@ -271,6 +271,99 @@ C:\Windows\System32\drivers\etc  - host file
 192.168.99.100 mysql
 192.168.99.100 eureka-1
 192.168.99.100 configserver
+
+
+=======K8S======================
+https://landscape.cncf.io/
+minikube ( dev )
+minishift ( OpenShift 1 worker and 1 master)
+https://kubernetes.io/docs/home/
+https://www.katacoda.com/
+
+kubectl create ns demo
+kubectl run nginx --image=nginx --replicas=5 -n demo
+kubectl get pods -n demo
+
+kubectl get events -n demo
+
+kubectl get events -n demo
+kubectl get events -n demo -w
+
+kubectl get deployment -n demo
+kubectl scale deployment nginx --replicas=1 -n demo
+
+kubectl version
+kubectl version --short
+
+kubectl config view
+
+t all nodes on Virtual VM
+Login to all nodes and execute the following....
+sudo swapoff -a
+
+On Master
+1. sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+2. cat /home/master/.kube/config
+3. kubectl get nodes
+if still getting the issue then below command
+    sudo -i
+    swapoff -a
+    exit
+    strace -eopenat kubectl version
+	
+	
+kubectl get secrets
+
+kubectl describe secret <default token>
+
+4. 
+	kubectl apply -f admin-user.yaml
+	kubectl describe sa admin-user -n kube-system
+	kubectl describe secret admin-user-token-gm7rn -n kube-system
+	
+
+
+
+5. Copy the token.
+
+On Windows Hosts
+kubectl config set-cluster <cluster-name> --insecure-skip-tls-verify=true --server=https://<master-ip>:6443
+kubectl config set-credentials <crednam> --token=<copied token from master>
+kubectl config set-context <context-name> --cluster=<cluster-name> --user=<crednam> 
+kubectl config use-context <context-name>
+
+kubectl get nodes
+
+https://cdn2.hubspot.net/hubfs/1665891/Assets/Kubernetes%20Security%20-%20Operating%20Kubernetes%20Clusters%20and%20Applications%20Safely.pdf?t=1538587424944&_hsenc=p2ANqtz-_7jbqtRATdJAm7eFxtd5u4nVLYuIlrF67z5qbslZ10-I63-RZ4ogqu9iuuEMsx7fskPYWww2jDpVjOvrLs
+
+============== Run the Case Study =============================
+Go to mschassis/k8s/rabbitmq
+
+kubectl apply -f rabbitmq-dep-w-k8s.yaml
+kubectl apply -f rabbitmq-dep-k8s.yaml
+kubectl apply -f rabbitmq-svc-k8s.yaml
+
+
+Go to mschassis/zipkin
+kubectl apply -f zipkin-dep-k8s.yaml
+kubectl apply -f zipkin-svc-k8s.yaml
+
+kubectl apply -f configserver-dep-k8s.yaml
+kubectl apply -f configserver-svc-k8s.yaml
+... once config server runs ...
+kubectl apply -f eureka-dep-k8s.yaml
+kubectl apply -f eureka-svc-k8s.yaml
+
+kubectl apply -f cloudapigateway-dep-k8s.yaml
+kubectl apply -f cloudapigateway-svc-k8s.yaml
+
+kubectl apply -f discountms-dep-k8s.yaml
+
+kubectl apply -f productms-dep-k8s.yaml
+=======================
+
+https://micrometer.io/
+
 
 
 

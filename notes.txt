@@ -151,6 +151,12 @@ Duration: 5 hr 7 min 29 sec
 Recording password: 5jHcrmF6 
 https://ibm.webex.com/ibm/ldr.php?RCID=f131e2acb9c944bfaf50fd2eff2412de
 
+
+Friday, April 17, 2020  |  12:02 am  |  Eastern Daylight Time (New York, GMT-04:00)  
+Duration: 6 hr 7 min 25 sec  
+Recording password: 9DjJEUkk  
+https://ibm.webex.com/ibm/ldr.php?RCID=d172a49901fd47b494aa79abcf6115d5
+
 ==========================================================================
 Installed software
 - STS (editor)
